@@ -1,0 +1,53 @@
+body{
+    background-color: #0F101C;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 7rem;
+    height: 1.6rem;
+    padding: 0.5rem;
+}
+
+header{
+    background-color: #1B1126;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container{
+    padding: 3rem;
+    text-align: center;
+    background-color: #1B1126;
+}
+
+.btn{
+    margin-bottom: 1rem;
+    width: 4rem;
+    height: 1.5rem;
+    background-color: #6D1666;
+    border-color: #6D1666;
+    border-style: hidden;
+    border-radius: 8px;
+    color: antiquewhite;
+    font-size: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #C2008E;
+}
+
+input{
+    color: antiquewhite;
+}
+
+.form{
+    color: antiquewhite;
+    margin-bottom: 1rem;
+    width: 14rem;
+    height: 2rem;
+    background-color: #17192B;
+    border-style: hidden;
+}

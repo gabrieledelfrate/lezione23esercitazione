@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esercizi JavaScript</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="#" target="_blank"><img class="logo" src="assets/epicode_logo.png" alt="epicode_logo"></a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Registrazione</h1>
+      
+        <input class="form" type="text" id="nameInput" placeholder="Inserisci il tuo nome">
+        <br>
+        <button class="btn" onclick="saveName()">Salva</button>
+        <button class="btn" onclick="removeName()">Rimuovi</button>
+        <div id="savedName"></div>
+      
+        <h2>Contatore</h2>
+        <div id="counter"></div>
+    </div>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
